@@ -4085,6 +4085,14 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// timeline functions:
+	this.frame_2 = function() {
+		playSound("Heavypoppingwav");
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
+
 	// Layer_1
 	this.instance = new lib.arrow();
 	this.instance.setTransform(158,0,0.2873,0.2873,0,0,180);
@@ -5248,7 +5256,6 @@ if (reversed == null) { reversed = false; }
 				_this.bulet_mc.x = reposition.x;
 				_this.bulet_mc.y = reposition.y;
 				_this.bulet_mc.play();
-				//_this[evt.target.parent.name].visible = 0;
 			}
 		});
 		_this.card2_mc.on("click", function (evt) {
@@ -5259,7 +5266,6 @@ if (reversed == null) { reversed = false; }
 				_this.bulet_mc.x = reposition.x;
 				_this.bulet_mc.y = reposition.y;
 				_this.bulet_mc.play();
-				//_this[evt.target.parent.name].visible = 0;
 			}
 		});
 		_this.card3_mc.on("click", function (evt) {
@@ -5372,12 +5378,13 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_191022.png?1718144059509", id:"_191022"},
-		{src:"images/_333.png?1718144059509", id:"_333"},
-		{src:"images/arrow.png?1718144059509", id:"arrow"},
-		{src:"images/HotDogBackground.png?1718144059509", id:"HotDogBackground"},
-		{src:"images/HotDogGun.png?1718144059509", id:"HotDogGun"},
-		{src:"sounds/metallicheskiy.mp3?1718144059509", id:"metallicheskiy"}
+		{src:"images/_191022.png?1718144765563", id:"_191022"},
+		{src:"images/_333.png?1718144765563", id:"_333"},
+		{src:"images/arrow.png?1718144765563", id:"arrow"},
+		{src:"images/HotDogBackground.png?1718144765563", id:"HotDogBackground"},
+		{src:"images/HotDogGun.png?1718144765563", id:"HotDogGun"},
+		{src:"sounds/Heavypoppingwav.mp3?1718144765563", id:"Heavypoppingwav"},
+		{src:"sounds/metallicheskiy.mp3?1718144765563", id:"metallicheskiy"}
 	],
 	preloads: []
 };
