@@ -25,18 +25,6 @@ lib.ssMetadata = [];
 
 
 
-(lib._22378 = function() {
-	this.initialize(img._22378);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,800,518);
-
-
-(lib._2412 = function() {
-	this.initialize(img._2412);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,576,434);
-
-
 (lib.background = function() {
 	this.initialize(img.background);
 }).prototype = p = new cjs.Bitmap();
@@ -79,6 +67,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,1762,490);
 p.nominalBounds = new cjs.Rectangle(0,0,1980,176);
 
 
+(lib.hodDogIMG = function() {
+	this.initialize(img.hodDogIMG);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,576,434);
+
+
 (lib.pedal = function() {
 	this.initialize(img.pedal);
 }).prototype = p = new cjs.Bitmap();
@@ -95,6 +89,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,1980,339);
 	this.initialize(img.porngames_clear);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,125,21);
+
+
+(lib.redButtonIMG = function() {
+	this.initialize(img.redButtonIMG);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,800,518);
 
 
 (lib.Tachometr = function() {
@@ -5339,7 +5339,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 	// Layer_1
-	this.instance = new lib._22378();
+	this.instance = new lib.redButtonIMG();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -5486,7 +5486,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	// Layer_1
-	this.instance = new lib._2412();
+	this.instance = new lib.hodDogIMG();
 	this.instance.setTransform(0,0,0.8157,0.8157);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -8741,6 +8741,7 @@ if (reversed == null) { reversed = false; }
 					break;
 			}
 		}
+		playSound("MainCarsGame",-1);
 	}
 
 	// actions tween:
@@ -8826,39 +8827,40 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_22378.png?1719085636233", id:"_22378"},
-		{src:"images/_2412.png?1719085636233", id:"_2412"},
-		{src:"images/background.png?1719085636233", id:"background"},
-		{src:"images/backmain.jpg?1719085636233", id:"backmain"},
-		{src:"images/car1.png?1719085636233", id:"car1"},
-		{src:"images/car2.png?1719085636233", id:"car2"},
-		{src:"images/car3.png?1719085636233", id:"car3"},
-		{src:"images/comp6.png?1719085636233", id:"comp6"},
-		{src:"images/GROUND.png?1719085636233", id:"GROUND"},
-		{src:"images/pedal.png?1719085636233", id:"pedal"},
-		{src:"images/podium.png?1719085636233", id:"podium"},
-		{src:"images/porngames_clear.png?1719085636233", id:"porngames_clear"},
-		{src:"images/Tachometr.png?1719085636233", id:"Tachometr"},
-		{src:"images/TierMainDinamic1.png?1719085636233", id:"TierMainDinamic1"},
-		{src:"images/TierMainDinamic2.png?1719085636233", id:"TierMainDinamic2"},
-		{src:"images/TierMainStatic.png?1719085636233", id:"TierMainStatic"},
-		{src:"images/TierOp1Dinamic1.png?1719085636233", id:"TierOp1Dinamic1"},
-		{src:"images/TierOp1Dinamic2.png?1719085636234", id:"TierOp1Dinamic2"},
-		{src:"images/TierOp1Static.png?1719085636234", id:"TierOp1Static"},
-		{src:"images/TierOp2Dinamic.png?1719085636234", id:"TierOp2Dinamic"},
-		{src:"images/TierOp2Static.png?1719085636234", id:"TierOp2Static"},
-		{src:"images/TierOp3Dinamic.png?1719085636234", id:"TierOp3Dinamic"},
-		{src:"images/TierOp3Dinamic2.png?1719085636234", id:"TierOp3Dinamic2"},
-		{src:"images/TierOp3Static.png?1719085636234", id:"TierOp3Static"},
-		{src:"images/YouLose.png?1719085636234", id:"YouLose"},
-		{src:"images/YouWin.png?1719085636234", id:"YouWin"},
-		{src:"sounds/endcount.mp3?1719085636234", id:"endcount"},
-		{src:"sounds/mlghorns.mp3?1719085636234", id:"mlghorns"},
-		{src:"sounds/startcount.mp3?1719085636234", id:"startcount"},
-		{src:"sounds/vau3.mp3?1719085636234", id:"vau3"},
-		{src:"sounds/VoiceCarsGame.mp3?1719085636234", id:"VoiceCarsGame"},
-		{src:"sounds/vozglasrazocharovaniyatolpy.mp3?1719085636234", id:"vozglasrazocharovaniyatolpy"},
-		{src:"sounds/woncars.mp3?1719085636234", id:"woncars"}
+		{src:"images/background.png?1719086410794", id:"background"},
+		{src:"images/backmain.jpg?1719086410794", id:"backmain"},
+		{src:"images/car1.png?1719086410794", id:"car1"},
+		{src:"images/car2.png?1719086410794", id:"car2"},
+		{src:"images/car3.png?1719086410794", id:"car3"},
+		{src:"images/comp6.png?1719086410794", id:"comp6"},
+		{src:"images/GROUND.png?1719086410794", id:"GROUND"},
+		{src:"images/hodDogIMG.png?1719086410794", id:"hodDogIMG"},
+		{src:"images/pedal.png?1719086410794", id:"pedal"},
+		{src:"images/podium.png?1719086410794", id:"podium"},
+		{src:"images/porngames_clear.png?1719086410794", id:"porngames_clear"},
+		{src:"images/redButtonIMG.png?1719086410794", id:"redButtonIMG"},
+		{src:"images/Tachometr.png?1719086410794", id:"Tachometr"},
+		{src:"images/TierMainDinamic1.png?1719086410795", id:"TierMainDinamic1"},
+		{src:"images/TierMainDinamic2.png?1719086410795", id:"TierMainDinamic2"},
+		{src:"images/TierMainStatic.png?1719086410795", id:"TierMainStatic"},
+		{src:"images/TierOp1Dinamic1.png?1719086410795", id:"TierOp1Dinamic1"},
+		{src:"images/TierOp1Dinamic2.png?1719086410795", id:"TierOp1Dinamic2"},
+		{src:"images/TierOp1Static.png?1719086410795", id:"TierOp1Static"},
+		{src:"images/TierOp2Dinamic.png?1719086410795", id:"TierOp2Dinamic"},
+		{src:"images/TierOp2Static.png?1719086410795", id:"TierOp2Static"},
+		{src:"images/TierOp3Dinamic.png?1719086410795", id:"TierOp3Dinamic"},
+		{src:"images/TierOp3Dinamic2.png?1719086410795", id:"TierOp3Dinamic2"},
+		{src:"images/TierOp3Static.png?1719086410795", id:"TierOp3Static"},
+		{src:"images/YouLose.png?1719086410795", id:"YouLose"},
+		{src:"images/YouWin.png?1719086410795", id:"YouWin"},
+		{src:"sounds/endcount.mp3?1719086410795", id:"endcount"},
+		{src:"sounds/MainCarsGame.mp3?1719086410795", id:"MainCarsGame"},
+		{src:"sounds/mlghorns.mp3?1719086410795", id:"mlghorns"},
+		{src:"sounds/startcount.mp3?1719086410795", id:"startcount"},
+		{src:"sounds/vau3.mp3?1719086410795", id:"vau3"},
+		{src:"sounds/VoiceCarsGame.mp3?1719086410795", id:"VoiceCarsGame"},
+		{src:"sounds/vozglasrazocharovaniyatolpy.mp3?1719086410795", id:"vozglasrazocharovaniyatolpy"},
+		{src:"sounds/woncars.mp3?1719086410795", id:"woncars"}
 	],
 	preloads: []
 };
