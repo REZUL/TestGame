@@ -1,0 +1,44 @@
+#_preload_div_ {
+            background: #000;
+			/* width: 360px;
+            margin: 0 auto;  */
+        }
+
+		/*---------------------------*/			
+        
+        .progress-bar {
+            background-color: #333;
+            height: 15px;
+            width: 320px;
+            margin: 280px 0 0 352px;			
+            -moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 15px;         
+        }
+        
+        .progress-bar span {
+            display: inline-block;
+			padding: 0;
+			margin: 0;
+            height: 100%;
+			background-color: #fff;
+            -moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 15px;
+			-webkit-transition: width .4s ease-in-out;
+			-moz-transition: width .4s ease-in-out;
+			-ms-transition: width .4s ease-in-out;
+			-o-transition: width .4s ease-in-out;
+			transition: width .4s ease-in-out;		
+        }
+		
+		/*---------------------------*/			
+        .blue span {
+            background-color: #dfc400;
+			  background-image: -webkit-gradient(linear, left top, left bottom, from(#ba7800), to(#ba7800));
+			  background-image: -webkit-linear-gradient(top, #dfc400, #ba7800);
+			  background-image: -moz-linear-gradient(top, #dfc400, #ba7800);
+			  background-image: -ms-linear-gradient(top, #dfc400, #ba7800);
+			  background-image: -o-linear-gradient(top, #dfc400, #ba7800);
+			  background-image: linear-gradient(top, #dfc400, #ba7800);    
+        }		
