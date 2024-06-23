@@ -7960,7 +7960,7 @@ if (reversed == null) { reversed = false; }
 			//_this.coinsCounter_mc.coinsNum_txt.text = window.parent.CoinsCount;
 			//console.log("Coins left:" + window.parent.CoinsCount);
 		}
-		playSound("MainShootingGame");
+		playSound("MainShootingGame",-1);
 	}
 
 	// actions tween:
@@ -8045,35 +8045,35 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/beer1.png?1719160247589", id:"beer1"},
-		{src:"images/beer3.png?1719160247589", id:"beer3"},
-		{src:"images/beer41.png?1719160247589", id:"beer41"},
-		{src:"images/beer4.png?1719160247589", id:"beer4"},
-		{src:"images/beer5.png?1719160247589", id:"beer5"},
-		{src:"images/beer6.png?1719160247589", id:"beer6"},
-		{src:"images/BME9f4IT_4x2.png?1719160247589", id:"BME9f4IT_4x2"},
-		{src:"images/BootleScaleBG.png?1719160247589", id:"BootleScaleBG"},
-		{src:"images/hodDogIMG.png?1719160247589", id:"hodDogIMG"},
-		{src:"images/holebulet.png?1719160247589", id:"holebulet"},
-		{src:"images/porngames_clear.png?1719160247589", id:"porngames_clear"},
-		{src:"images/RANGELEFT.png?1719160247589", id:"RANGELEFT"},
-		{src:"images/RANGEMIDDLE.png?1719160247589", id:"RANGEMIDDLE"},
-		{src:"images/RANGERIGHT.png?1719160247589", id:"RANGERIGHT"},
-		{src:"images/ShootFire.png?1719160247589", id:"ShootFire"},
-		{src:"images/ShootingBackground.png?1719160247589", id:"ShootingBackground"},
-		{src:"images/YouWin.png?1719160247589", id:"YouWin"},
-		{src:"sounds/aplodismentywon.mp3?1719160247589", id:"aplodismentywon"},
-		{src:"sounds/brokenbottle.mp3?1719160247589", id:"brokenbottle"},
-		{src:"sounds/dvershkafa.mp3?1719160247589", id:"dvershkafa"},
-		{src:"sounds/gromkiymetkiyodinochnyiyvyistrel.mp3?1719160247590", id:"gromkiymetkiyodinochnyiyvyistrel"},
-		{src:"sounds/MainShootingGame.mp3?1719160247590", id:"MainShootingGame"},
-		{src:"sounds/ohyeah2.mp3?1719160247590", id:"ohyeah2"},
-		{src:"sounds/ohyeah3.mp3?1719160247590", id:"ohyeah3"},
-		{src:"sounds/ohyeah.mp3?1719160247590", id:"ohyeah"},
-		{src:"sounds/VoiceShootingGame.mp3?1719160247590", id:"VoiceShootingGame"},
-		{src:"sounds/wonhotdog.mp3?1719160247590", id:"wonhotdog"},
-		{src:"sounds/youwin.mp3?1719160247590", id:"youwin"},
-		{src:"sounds/zvukrezinovoypulipokonservnoybanke.mp3?1719160247590", id:"zvukrezinovoypulipokonservnoybanke"}
+		{src:"images/beer1.png?1719160962597", id:"beer1"},
+		{src:"images/beer3.png?1719160962597", id:"beer3"},
+		{src:"images/beer41.png?1719160962597", id:"beer41"},
+		{src:"images/beer4.png?1719160962597", id:"beer4"},
+		{src:"images/beer5.png?1719160962597", id:"beer5"},
+		{src:"images/beer6.png?1719160962597", id:"beer6"},
+		{src:"images/BME9f4IT_4x2.png?1719160962597", id:"BME9f4IT_4x2"},
+		{src:"images/BootleScaleBG.png?1719160962597", id:"BootleScaleBG"},
+		{src:"images/hodDogIMG.png?1719160962597", id:"hodDogIMG"},
+		{src:"images/holebulet.png?1719160962597", id:"holebulet"},
+		{src:"images/porngames_clear.png?1719160962597", id:"porngames_clear"},
+		{src:"images/RANGELEFT.png?1719160962597", id:"RANGELEFT"},
+		{src:"images/RANGEMIDDLE.png?1719160962597", id:"RANGEMIDDLE"},
+		{src:"images/RANGERIGHT.png?1719160962597", id:"RANGERIGHT"},
+		{src:"images/ShootFire.png?1719160962597", id:"ShootFire"},
+		{src:"images/ShootingBackground.png?1719160962597", id:"ShootingBackground"},
+		{src:"images/YouWin.png?1719160962597", id:"YouWin"},
+		{src:"sounds/aplodismentywon.mp3?1719160962597", id:"aplodismentywon"},
+		{src:"sounds/brokenbottle.mp3?1719160962597", id:"brokenbottle"},
+		{src:"sounds/dvershkafa.mp3?1719160962597", id:"dvershkafa"},
+		{src:"sounds/gromkiymetkiyodinochnyiyvyistrel.mp3?1719160962597", id:"gromkiymetkiyodinochnyiyvyistrel"},
+		{src:"sounds/MainShootingGame.mp3?1719160962597", id:"MainShootingGame"},
+		{src:"sounds/ohyeah2.mp3?1719160962597", id:"ohyeah2"},
+		{src:"sounds/ohyeah3.mp3?1719160962597", id:"ohyeah3"},
+		{src:"sounds/ohyeah.mp3?1719160962597", id:"ohyeah"},
+		{src:"sounds/VoiceShootingGame.mp3?1719160962597", id:"VoiceShootingGame"},
+		{src:"sounds/wonhotdog.mp3?1719160962597", id:"wonhotdog"},
+		{src:"sounds/youwin.mp3?1719160962597", id:"youwin"},
+		{src:"sounds/zvukrezinovoypulipokonservnoybanke.mp3?1719160962597", id:"zvukrezinovoypulipokonservnoybanke"}
 	],
 	preloads: []
 };
