@@ -9180,6 +9180,7 @@ if (reversed == null) { reversed = false; }
 					this.tablet_mc.gotoAndPlay(61);
 					round++;
 					gas = 3;
+					console.log(this.cars_mc.x);
 					console.log("You win!!!");
 				}
 			}
