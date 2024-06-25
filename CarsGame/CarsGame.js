@@ -9162,16 +9162,17 @@ if (reversed == null) { reversed = false; }
 					//console.log(this.cars_mc.x);
 				} else if (this.cars_mc.x < -500) {
 					this.cars_mc.x = this.cars_mc.x;
+					console.log(this.cars_mc.x);
 					this.cars_mc.rt_mc.visible = 0;
 					this.cars_mc.carMain_mc.rt_mc.visible = 0;
 					this.cars_mc.smoke_mc.visible = 0;
 					angle = 10;
 					end = 1;
-					
 					this.tablet_mc.gotoAndPlay(70);
 					console.log("You lose!!!");
 				} else {
 					this.cars_mc.x = this.cars_mc.x;
+					console.log(this.cars_mc.x);
 					this.cars_mc.rt_mc.visible = 0;
 					this.cars_mc.carMain_mc.rt_mc.visible = 0;
 					this.cars_mc.smoke_mc.visible = 0;
@@ -9180,7 +9181,6 @@ if (reversed == null) { reversed = false; }
 					this.tablet_mc.gotoAndPlay(61);
 					round++;
 					gas = 3;
-					console.log(this.cars_mc.x);
 					console.log("You win!!!");
 				}
 			}
